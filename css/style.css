@@ -3,3 +3,135 @@
 /* font-family: "GilroyMedium"; */
 
 /* font-family: "GilroyBold"; */
+
+.container {
+    max-width: 943px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #828282;
+}
+
+.nav__link {    
+    font-family: "GilroyBold";
+    font-size: 18px;
+    line-height: 22px;
+    padding: 32px 0;
+    color: #828282;
+    
+}
+
+.nav__link:hover {
+    color: #070707;
+    transition: color .2s ease;
+}
+
+.nav__link.active {
+    color: #070707;
+}
+/* HEADER END */
+
+/* INTRO START */
+
+.intro__block {
+    display: flex;
+    justify-content: space-between;  
+}
+
+.intro__title {
+    max-width: 119px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 47px;
+    font-family: "GilroyBold";
+    line-height: 59px;
+    color: #070707;
+    
+}
+
+.intro__description {
+    padding-top: 95px;
+    padding-bottom: 50px;
+    font-family: "GilroyMedium";
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+.intro__lng {
+    padding-top: 80px;
+    
+}
+
+.intro__lng-ru {    
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    font-family: "GilroyBold";
+}
+
+
+.intro__lng-eng {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    font-family: "GilroyBold";
+}
+
+.intro__lng-ru:hover {
+    transition: color .2s ease;
+    color: #000000;
+}
+
+.intro__img {
+    width: 100%;
+    height: 387px;
+}
+
+/* INTRO END */
+
+
+
+/* ABOUT START */
+.about {
+    margin-top: 105px;
+    background-color: #F6F6F6;
+}
+
+.about__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.about__title-main {
+    padding-top: 120px;
+    font-family: "GilroyBold";
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+}
+
+.about__title-description {
+    padding-top: 28px;
+    width: 485px;
+    display: flex;
+    text-align: center; 
+}
+
+.about__title-description:last-child {
+    padding-bottom: 107px;
+}
+
+.about__title-text {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "GilroyMedium";
+    color: #070707;    
+}
+
+/* ABOUT END */
