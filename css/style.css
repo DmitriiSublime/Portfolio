@@ -63,14 +63,22 @@
     
 }
 
-.intro__description {
-    padding-top: 95px;
-    padding-bottom: 50px;
+.title_main {
     font-family: "GilroyMedium";
     font-size: 18px;
     line-height: 22px;
     color: #070707;
 }
+
+.about__title-text-bot {      
+    width: 70%;
+}
+
+.intro__description {
+    padding-top: 95px;
+    padding-bottom: 50px;    
+}
+
 .intro__lng {
     padding-top: 80px;
     
@@ -127,21 +135,15 @@
     padding-top: 28px;
     width: 485px;
     display: flex;
-    text-align: center; 
+    text-align: center;
+    justify-content: center;
 }
 
 .about__title-description:last-child {
     padding-bottom: 107px;
 }
 
-.about__title-text {
-    font-size: 18px;
-    line-height: 22px;
-    font-family: "GilroyMedium";
-    color: #070707;    
-}
 /* ABOUT END */
-
 
 
 /* SKILLS START */
@@ -152,51 +154,160 @@
     align-items: center;
 }
 
-
 .skills__title {
     padding-top: 91px;
     padding-bottom: 69px;
 }
 
 .skills__description {
-    padding-bottom: 83.5px;
-    font-family: "GilroyMedium";
-    font-size: 18px;
-    line-height: 22px;
-    color: #070707;
+    padding-bottom: 83.5px;    
 }
 
 .skills__list {
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 110px;    
-}
-
-.skills__img {
-    
+    justify-content: space-between;  
+    max-height: 310px;
+       
 }
 
 .skills__text-img {
     display: flex;
     justify-content: center;
+    margin-bottom: 24px;
 }
 
 .skills__fonts {
     display: flex;    
     justify-content: center;
-    align-items: center;
-    padding-top: 24px;
+    align-items: center;    
     font-size: 14px;
     line-height: 17px;
     color: #828282;
     font-family: "GilroyBold";
 }
 
+.skills__figma {
+    height: 34px;
+}
+
 .skills__stars {
     padding-top: 40px;
     padding-bottom: 111px;
 }
-
-
-
 /* SKILLS END */
+
+
+
+/* PORTFOLIO START */
+.portfolio {
+   background-color: #F6F6F6;
+}
+
+.portfolip__title {
+    display: flex;
+    justify-content: center;
+    padding-top: 113px;
+}
+
+.portfolio__collection {
+    padding-top: 47px;
+    padding-bottom: 46px;
+}
+
+.portfolio__text {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 96px;
+}
+
+.portfolio-concept {        
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "GilroyMedium";
+    color: #070707;
+    text-decoration-line: underline;    
+}
+
+.portfolio-concept:hover {
+    text-decoration: none;    
+}
+
+.portfolio__picture {    
+    padding-bottom: 46px;
+}
+
+/* PORTFOLIO END */
+
+
+
+/* CONTACTS START */
+
+.contacts__title {
+    display: flex;
+    justify-content: center;
+    padding-top: 114px;
+}
+
+.contacts__quest {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;    
+    background: #070707;
+    border-radius: 50px;
+    min-width: 180px;
+    min-height: 42px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "GilroyBold";  
+    transition: backgroundcolor .2s ease;
+    cursor: pointer; 
+}
+
+.contacts__btn:hover {
+background-color: #961b0e
+}
+
+/* CONTACTS END */
+
+
+/* FOOTER START */
+.footer__block {
+    display: flex;
+    padding-top: 86px;
+    justify-content: center;
+}
+
+.footer__content:not(:last-child) {
+    padding-right: 60px;
+}
+
+.footer__description {
+    display: flex;
+    padding-bottom: 123px;
+    flex-direction: column;
+    padding-top: 46px;   
+    align-items: center;       
+}
+
+.footer__text {       
+    font-size: 14px;
+    line-height: 17px;
+    font-family: "GilroyMedium";
+    color: #828282;
+}
+
+/* FOOTER END */
